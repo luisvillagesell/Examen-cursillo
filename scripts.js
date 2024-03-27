@@ -15,12 +15,12 @@
     console.log("La nota promedio es : " + nota);
     
     if(nota < 4 && nota >= 1) {
-        console.log("Libre")
+        return "LIBRE";
     }  else if (nota >= 4 && nota <7){
-        console.log("Regular")
+        return "Regular";
     } else if (nota >=7 &&  nota <=10) {
-        console.log("Promocionado")
+        return "Promocionado";
     }else{
-        console.log("Error");
+        return "Error";
 }
 
