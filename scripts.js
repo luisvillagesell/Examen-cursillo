@@ -14,7 +14,7 @@
     let nota = calcularMedia(5,7,1);
     console.log("La nota promedio es : " + nota);
     
-    if(nota < 4) {
+    if(nota < 4 && nota >= 1) {
         console.log("Libre")
     }  else if (nota >= 4 && nota <7){
         console.log("Regular")
