@@ -11,9 +11,9 @@
         return media.toFixed(2);
     }
 
-    let nota = calcularMedia(5,7,1);
+    let nota = calcularMedia(9,7,9);
     console.log("La nota promedio es : " + nota);
-    
+    function evaluar(nota) {
     if(nota < 4 && nota >= 1) {
         return "LIBRE";
     }  else if (nota >= 4 && nota <7){
@@ -22,5 +22,8 @@
         return "Promocionado";
     }else{
         return "Error";
+    }
 }
 
+let notafinal = evaluar(nota);
+console.log(notafinal)
