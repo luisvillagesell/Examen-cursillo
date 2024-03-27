@@ -11,7 +11,7 @@
         return media.toFixed(2);
     }
 
-    let nota = calcularMedia(5,1,1);
+    let nota = calcularMedia(5,7,1);
     console.log("La nota promedio es : " + nota);
     
     if(nota < 4) {
